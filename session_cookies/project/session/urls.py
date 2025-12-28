@@ -11,4 +11,6 @@ urlpatterns = [
     path("get-session/", views.get_session, name="get_session"),
     path('clear_session/', views.clear_session, name='clear_session'),
     path('update_session/', views.update_session, name='update_session'),
+    path('reset_visit_counter/', views.reset_visit_counter, name='reset_visit_counter'),
+    path('visit_counter/', views.visit_counter, name='visit_counter'),
 ]
