@@ -33,13 +33,11 @@ def get_session(request: HttpRequest) -> HttpResponse:
 
 # УДАЛАЕТ ВСЕ СЕССИИ
 def clear_session(request: HttpRequest) -> HttpResponse:
-    # Повне видалення даних сесії та кукі (аналог Logout)
     request.session.flush()
     return HttpResponse('Session Flushed!')
 
 
 def update_session(request: HttpRequest) -> HttpResponse:
-    # Запис значень у сесію (зберігаються на сервері)
     request.session['points'] = 100
     request.session['color'] = 'blue'
     return HttpResponse('Updated!')
@@ -57,4 +55,5 @@ def reset_visit_counter(request: HttpRequest) -> HttpResponse:
     if 'visit_count' in request.session:
         request.session.pop('visit_count', None)
     return redirect('visit_counter')
+
 
