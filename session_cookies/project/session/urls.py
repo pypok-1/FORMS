@@ -1,0 +1,14 @@
+from django.urls import path
+
+from . import views
+
+urlpatterns = [
+    # cookies
+    path("set-cookies/", views.set_cookies, name="set_cookies"),
+    path("delete-cookies/", views.delete_cookies, name="delete_cookies"),
+    path("get-cookies/", views.get_cookies, name="get_cookies"),
+    path("set-session/", views.set_session, name="set_session"),
+    path("get-session/", views.get_session, name="get_session"),
+    path('clear_session/', views.clear_session, name='clear_session'),
+    path('update_session/', views.update_session, name='update_session'),
+]
