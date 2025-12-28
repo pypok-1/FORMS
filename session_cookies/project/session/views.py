@@ -59,8 +59,10 @@ def update_session(request: HttpRequest) -> HttpResponse:
 #Зберігає значення 100 та 'blue' у сховище сесій на сервері, прив’язуючи їх до конкретного користувача.
 
 
+#======================DZ=========================================
 def visit_counter(request: HttpRequest) -> HttpResponse:
     country = request.session.get('visit_count', 0)
     count = country + 1
     request.session['visit_count'] = count
+
     return HttpResponse(f'You have visited {count}')
