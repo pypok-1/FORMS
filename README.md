@@ -1,4 +1,3 @@
-## FORMS (ITTS)
 ---
 
 ## What's In The Storefront Today
@@ -19,6 +18,10 @@
 
 ## What I Want To Build Next
 
+<p align="center">
+  <img src="https://media.giphy.com/media/1NQ7m0gqsah1XS4vG1/giphy.gif" width="120" alt="Happy dancing bee" />
+</p>
+
 | Status | Feature | Notes |
 |:---:|---|---|
 | ![planned](https://img.shields.io/badge/-PLANNED-c9822b?style=flat-square&logo=checkmarx&logoColor=white) | Slide-over cart drawer | Right-hand panel with backdrop blur — replaces the redirect to `/cart` |
@@ -29,3 +32,6 @@
 | ![planned](https://img.shields.io/badge/-PLANNED-c9822b?style=flat-square&logo=checkmarx&logoColor=white) | QR verification | Laboratory analysis printed on every jar label |
 | ![planned](https://img.shields.io/badge/-PLANNED-c9822b?style=flat-square&logo=checkmarx&logoColor=white) | B2B wholesale portal | For Michelin-starred establishments and specialty retail |
 | ![planned](https://img.shields.io/badge/-PLANNED-c9822b?style=flat-square&logo=checkmarx&logoColor=white) | `localStorage` sync | Guest cart persistence across browser sessions |
+| ![planned](https://img.shields.io/badge/-PLANNED-c9822b?style=flat-square&logo=checkmarx&logoColor=white) | More storefront pages | Dedicated pages for individual varietals, journal, and about the apiary |
+| ![planned](https://img.shields.io/badge/-PLANNED-c9822b?style=flat-square&logo=checkmarx&logoColor=white) | Move catalog to a real database | Replace the in-memory `PRODUCTS` dict with SQLite or PostgreSQL |
+| ![planned](https://img.shields.io/badge/-PLANNED-c9822b?style=flat-square&logo=checkmarx&logoColor=white) | Expand the product catalog | Grow beyond six varietals — add seasonal drops, limited runs, and accessories |
