@@ -167,3 +167,19 @@ The catalog lives in a single `PRODUCTS` dictionary in `app.py`. Adding a variet
     ```bash
     git clone <your-repo-url>
     cd melisso
+
+---
+
+## A Note From The Author
+
+I was away from GitHub for a long time. Not a short break — a real one. Life rearranged itself, work rearranged itself, and for a while the only thing I was doing with code was thinking about it. Ideas kept arriving anyway. Sketches of interfaces, notes about how a checkout should feel, half-formed plans. Most of it never made it to a file.
+
+This project is what happens when some of that finally lands.
+
+I came back with a clearer picture of what I wanted to build, and I started building it — slowly, deliberately, and with a fair amount of help from AI tools along the way. Some parts of the code in this repository were drafted with assistance from language models. The direction, the taste, and the decisions about what to keep and what to throw out are mine. But I would rather say plainly that this was made in collaboration with modern tooling than pretend it appeared fully formed.
+
+If you are reading this and you have also been away for a while: it is fine. The repositories will wait. The ideas will mostly wait too, and the ones that do not are not worth mourning. Start with what you remember. Ask for help. Ship something small.
+
+I am back. Let us see what gets built.
+
+---
