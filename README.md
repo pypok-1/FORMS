@@ -98,22 +98,6 @@ Project repository: [MELISSO](#)
 </div>
 
 ---
-
-## Product Catalog
-
-| ID | Name | Weight | Price |
-|---|---|---|---|
-| `wild-thyme-reserve` | Wild Thyme Reserve | 250 g | €28.00 |
-| `white-thistle-blossom` | White Thistle & Blossom | 450 g | €34.00 |
-| `wild-pine-herbs` | Wild Pine & Mountain Herbs | 450 g | €38.00 |
-| `oak-chestnut` | Cretan Oak & Wild Chestnut | 450 g | €42.00 |
-| `raw-honeycomb` | Raw Honeycomb Reserve | 500 g | €42.00 |
-| `tasting-trio` | Tasting Discovery Trio Box | 3 × 450 g | €95.00 |
-
-The catalog lives in a single `PRODUCTS` dictionary in `app.py`. Adding a varietal is a one-line change.
-
----
-
 ## Tech Stack
 
 <details>
