@@ -15,8 +15,6 @@ A small, deliberate web atelier for raw, single-origin Cretan honey — harveste
 ## Table of Contents
 - [About](#about)
 - [Brand & Terroir](#brand--terroir)
-- [Features](#features)
-- [Product Catalog](#product-catalog)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -24,7 +22,6 @@ A small, deliberate web atelier for raw, single-origin Cretan honey — harveste
 - [API Reference](#api-reference)
 - [Project Structure](#project-structure)
 - [A Note From The Author](#a-note-from-the-author)
-- [License](#license)
 
 ---
 
@@ -56,48 +53,6 @@ Project repository: [MELISSO](#)
 
 ---
 
-## Features
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="200">
-        <img src="https://img.icons8.com/color/96/000000/honey.png" width="60"/><br/>
-        <b>Seasonal Reserve</b><br/>
-        <sub>Six varietals, each with its own terroir</sub>
-      </td>
-      <td align="center" width="200">
-        <img src="https://img.icons8.com/color/96/000000/shopping-cart.png" width="60"/><br/>
-        <b>Live Cart</b><br/>
-        <sub>Server-side session persistence</sub>
-      </td>
-      <td align="center" width="200">
-        <img src="https://img.icons8.com/color/96/000000/delivery.png" width="60"/><br/>
-        <b>Shipping Engine</b><br/>
-        <sub>Free freight over €80</sub>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="200">
-        <img src="https://img.icons8.com/color/96/000000/olive-oil.png" width="60"/><br/>
-        <b>Tasting Notes</b><br/>
-        <sub>Pairing guide for every jar</sub>
-      </td>
-      <td align="center" width="200">
-        <img src="https://img.icons8.com/color/96/000000/serif-font.png" width="60"/><br/>
-        <b>Editorial Design</b><br/>
-        <sub>Bodoni Moda and Plus Jakarta Sans</sub>
-      </td>
-      <td align="center" width="200">
-        <img src="https://img.icons8.com/color/96/000000/positive-dynamic.png" width="60"/><br/>
-        <b>Reduced Motion</b><br/>
-        <sub>Accessible animations by default</sub>
-      </td>
-    </tr>
-  </table>
-</div>
-
----
 ## Tech Stack
 
 <details>
