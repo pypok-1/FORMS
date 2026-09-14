@@ -14,7 +14,6 @@ A small, deliberate web atelier for raw, single-origin Cretan honey — harveste
 
 ## Table of Contents
 - [About](#about)
-- [Brand & Terroir](#brand--terroir)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -32,24 +31,6 @@ MELISSO is a full-stack storefront for artisanal Cretan honey, built with Flask 
 The project pairs a warm editorial design system with a straightforward backend. No bundler, no build step, no node_modules — clone, install Flask, run.
 
 Project repository: [MELISSO](#)
-
----
-
-## Brand & Terroir
-
-| Attribute | Detail |
-|---|---|
-| Origin | Samaria Gorge biosphere, Lefka Ori, Crete |
-| Altitude | 1,200 – 1,600 m |
-| Coordinates | 35°18′ N, 24°02′ E |
-| Extraction | Cold centrifugal, never above 35°C |
-| Diastase Activity | > 34.2 DN |
-| Moisture Content | < 15.1% |
-| Pollen Purity | up to 98.4% (wild thyme varietals) |
-| Annual Output | never exceeding 1,200 hand-numbered jars per batch |
-| Wintering Reserve | > 40% of comb yield left to the colony |
-
-**Ethical commitments.** No sugar feeding. No synthetic acaricides. No thermal processing. No antibiotics. Every seasonal release is tested by an independent laboratory at the University of Athens.
 
 ---
 
