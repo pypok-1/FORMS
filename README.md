@@ -4,7 +4,7 @@
 
 <h1 align="center">
   <span style="font-size: 4em; font-weight: 800; background: linear-gradient(135deg, #c9822b 0%, #895100 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
-    MELISSO
+    MELISSO (1.0.0)
   </span>
 </h1>
 
@@ -117,7 +117,7 @@ This project is what happens when some of that finally lands.
 
 I came back with a clearer picture of what I wanted to build, and I started building it — slowly, deliberately, and with a fair amount of help from AI tools along the way. Some parts of the code in this repository were drafted with assistance from language models. The direction, the taste, and the decisions about what to keep and what to throw out are mine. But I would rather say plainly that this was made in collaboration with modern tooling than pretend it appeared fully formed.
 
-If you are reading this and you have also been away for a while: it is fine. The repositories will wait. The ideas will mostly wait too, and the ones that do not are not worth mourning. Start with what you remember. Ask for help. Ship something small.
+If you are reading this and you have also been away for a while: it is fine. The repositories will wait. The ideas will mostly wait too, and the ones that do not are not worth mourning. Start with what you remember. Ask for help. Ship something small :)
 
 I am back. Let us see what gets built.
 
