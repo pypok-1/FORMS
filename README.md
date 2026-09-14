@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.postimg.cc/m2TdB1ZD/image.png)](https://postimg.cc/Cd6C41qT" width="60" />
+  <img src="https://i.postimg.cc/m2TdB1ZD/image.png)](https://postimg.cc/Cd6C41qT" width="100" />
 </p>
 
 <h1 align="center">
