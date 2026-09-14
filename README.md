@@ -12,11 +12,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Bodoni+Moda&weight=600&size=26&duration=3000&pause=1000&color=895100&center=true&vCenter=true&random=false&width=700&lines=Raw+Single-Origin+Cretan+Honey;Harvested+Above+1%2C200+Meters;Sealed+in+Beeswax%2C+Numbered+by+Hand" alt="Typing SVG" />
 </p>
 
-![Origin: Lefka Ori, Crete](https://img.shields.io/badge/Origin-Lefka%20Ori%2C%20Crete-c9822b?style=for-the-badge)
-![Altitude: 1,200 m+](https://img.shields.io/badge/Altitude-1%2C200%20m%2B-895100?style=for-the-badge)
-![Diastase: 34.2 DN](https://img.shields.io/badge/Diastase-34.2%20DN-994620?style=for-the-badge)
-![Purity: up to 98.4%](https://img.shields.io/badge/Purity-98.4%25-7a5900?style=for-the-badge)
-
 A small, deliberate web atelier for raw, single-origin Cretan honey — harvested in the White Mountains above the Aegean, unheated, unfiltered, and hand-sealed in beeswax. Browse the seasonal reserve, explore tasting notes and food pairings, and build a cart that remembers you across sessions. This is MELISSO.
 
 ---
