@@ -1,30 +1,31 @@
 ---
 
-## What's In The Storefront Today
+## Current State & Roadmap
 
-| Status | Feature | Notes |
-|:---:|---|---|
-| ![done](https://img.shields.io/badge/-DONE-895100?style=flat-square&logo=checkmarx&logoColor=white) | Landing atelier | Editorial hero, terroir badges, tech bar with harvest telemetry |
-| ![done](https://img.shields.io/badge/-DONE-895100?style=flat-square&logo=checkmarx&logoColor=white) | Product catalog | Six varietals rendered from the `PRODUCTS` dict |
-| ![done](https://img.shields.io/badge/-DONE-895100?style=flat-square&logo=checkmarx&logoColor=white) | Tasting notes & pairings | Flavor architecture cards with sensory sliders |
-| ![done](https://img.shields.io/badge/-DONE-895100?style=flat-square&logo=checkmarx&logoColor=white) | Terroir narrative | Scroll-reveal section on apiary and craft |
-| ![done](https://img.shields.io/badge/-DONE-895100?style=flat-square&logo=checkmarx&logoColor=white) | Community proofs | Testimonials and #MelissoMoments mosaic |
-| ![done](https://img.shields.io/badge/-DONE-895100?style=flat-square&logo=checkmarx&logoColor=white) | Cart engine | Add, update, remove, live subtotal |
-| ![done](https://img.shields.io/badge/-DONE-895100?style=flat-square&logo=checkmarx&logoColor=white) | Session persistence | Cart survives refresh via signed cookie |
-| ![done](https://img.shields.io/badge/-DONE-895100?style=flat-square&logo=checkmarx&logoColor=white) | Shipping threshold | Free freight over €80, recalculated live |
-| ![done](https://img.shields.io/badge/-DONE-895100?style=flat-square&logo=checkmarx&logoColor=white) | Responsive layout | Desktop, tablet, high-DPI displays |
+### What the site already does
 
----
+- [x] Landing atelier with editorial hero section
+- [x] Full seasonal catalog — six varietals and one tasting box
+- [x] Interactive cart with server-side session persistence
+- [x] Live quantity controls and subtotal recalculation
+- [x] Shipping engine with free-freight threshold (€80)
+- [x] Sommelier tasting matcher (interactive widget)
+- [x] Food pairing guide with sensory sliders
+- [x] Terroir narrative with scroll-reveal animations
+- [x] Testimonials and community mosaic
+- [x] Responsive layout for desktop and high-DPI displays
+- [x] Reduced-motion support for accessibility
 
-## What I Want To Build Next
+### What I want to build next
 
-| Status | Feature | Notes |
-|:---:|---|---|
-| ![planned](https://img.shields.io/badge/-PLANNED-c9822b?style=flat-square&logo=checkmarx&logoColor=white) | Slide-over cart drawer | Right-hand panel with backdrop blur — replaces the redirect to `/cart` |
-| ![planned](https://img.shields.io/badge/-PLANNED-c9822b?style=flat-square&logo=checkmarx&logoColor=white) | Shipping progress bar | Visual gamification of the €80 free-shipping threshold |
-| ![planned](https://img.shields.io/badge/-PLANNED-c9822b?style=flat-square&logo=checkmarx&logoColor=white) | Sommelier upsell in cart | One-click sample or accessory add-on at checkout |
-| ![planned](https://img.shields.io/badge/-PLANNED-c9822b?style=flat-square&logo=checkmarx&logoColor=white) | Stripe checkout | Multi-currency payment gateway with Stripe Elements and Apple Pay |
-| ![planned](https://img.shields.io/badge/-PLANNED-c9822b?style=flat-square&logo=checkmarx&logoColor=white) | Harvest Club tiers | Connoisseur, Grand Cru, Atelier Patron memberships |
-| ![planned](https://img.shields.io/badge/-PLANNED-c9822b?style=flat-square&logo=checkmarx&logoColor=white) | QR verification | Laboratory analysis printed on every jar label |
-| ![planned](https://img.shields.io/badge/-PLANNED-c9822b?style=flat-square&logo=checkmarx&logoColor=white) | B2B wholesale portal | For Michelin-starred establishments and specialty retail |
-| ![planned](https://img.shields.io/badge/-PLANNED-c9822b?style=flat-square&logo=checkmarx&logoColor=white) | `localStorage` sync | Guest cart persistence across browser sessions |
+- [ ] Slide-over cart drawer (no page redirect)
+- [ ] Shipping threshold gamification — progress bar to free freight
+- [ ] Harvest Club tiered memberships (Connoisseur, Grand Cru, Atelier Patron)
+- [ ] Multi-currency checkout (Stripe Elements, Apple Pay)
+- [ ] Laboratory QR verification on jar labels
+- [ ] Custom beeswax seal personalization
+- [ ] `/api/subscribe` endpoint for private harvest drops
+- [ ] `/api/products` with live batch counts
+- [ ] `/api/checkout` for encrypted order orchestration
+- [ ] B2B wholesale portal for Michelin-starred establishments
+- [ ] Dark mode variant of the design system
