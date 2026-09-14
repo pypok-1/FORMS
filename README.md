@@ -1,0 +1,178 @@
+<p align="center">
+  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="60" />
+</p>
+
+<h1 align="center">
+  <span style="font-size: 4em; font-weight: 800; background: linear-gradient(135deg, #c9822b 0%, #895100 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+    MELISSO
+  </span>
+</h1>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Bodoni+Moda&weight=600&size=26&duration=3000&pause=1000&color=895100&center=true&vCenter=true&random=false&width=700&lines=Raw+Single-Origin+Cretan+Honey;Harvested+Above+1%2C200+Meters;Sealed+in+Beeswax%2C+Numbered+by+Hand" alt="Typing SVG" />
+</p>
+
+![Origin: Lefka Ori, Crete](https://img.shields.io/badge/Origin-Lefka%20Ori%2C%20Crete-c9822b?style=for-the-badge)
+![Altitude: 1,200 m+](https://img.shields.io/badge/Altitude-1%2C200%20m%2B-895100?style=for-the-badge)
+![Diastase: 34.2 DN](https://img.shields.io/badge/Diastase-34.2%20DN-994620?style=for-the-badge)
+![Purity: up to 98.4%](https://img.shields.io/badge/Purity-98.4%25-7a5900?style=for-the-badge)
+
+A small, deliberate web atelier for raw, single-origin Cretan honey — harvested in the White Mountains above the Aegean, unheated, unfiltered, and hand-sealed in beeswax. Browse the seasonal reserve, explore tasting notes and food pairings, and build a cart that remembers you across sessions. This is MELISSO.
+
+---
+
+## Table of Contents
+- [About](#about)
+- [Brand & Terroir](#brand--terroir)
+- [Features](#features)
+- [Product Catalog](#product-catalog)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Install & Run](#install--run)
+- [API Reference](#api-reference)
+- [Project Structure](#project-structure)
+- [A Note From The Author](#a-note-from-the-author)
+- [License](#license)
+
+---
+
+## About
+
+MELISSO is a full-stack storefront for artisanal Cretan honey, built with Flask and a hand-crafted Tailwind frontend. It is intentionally narrow in scope: a landing atelier, a product catalog, an interactive cart with server-side session persistence, and a shipping engine that rewards larger orders.
+
+The project pairs a warm editorial design system with a straightforward backend. No bundler, no build step, no node_modules — clone, install Flask, run.
+
+Project repository: [MELISSO](#)
+
+---
+
+## Brand & Terroir
+
+| Attribute | Detail |
+|---|---|
+| Origin | Samaria Gorge biosphere, Lefka Ori, Crete |
+| Altitude | 1,200 – 1,600 m |
+| Coordinates | 35°18′ N, 24°02′ E |
+| Extraction | Cold centrifugal, never above 35°C |
+| Diastase Activity | > 34.2 DN |
+| Moisture Content | < 15.1% |
+| Pollen Purity | up to 98.4% (wild thyme varietals) |
+| Annual Output | never exceeding 1,200 hand-numbered jars per batch |
+| Wintering Reserve | > 40% of comb yield left to the colony |
+
+**Ethical commitments.** No sugar feeding. No synthetic acaricides. No thermal processing. No antibiotics. Every seasonal release is tested by an independent laboratory at the University of Athens.
+
+---
+
+## Features
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="200">
+        <img src="https://img.icons8.com/color/96/000000/honey.png" width="60"/><br/>
+        <b>Seasonal Reserve</b><br/>
+        <sub>Six varietals, each with its own terroir</sub>
+      </td>
+      <td align="center" width="200">
+        <img src="https://img.icons8.com/color/96/000000/shopping-cart.png" width="60"/><br/>
+        <b>Live Cart</b><br/>
+        <sub>Server-side session persistence</sub>
+      </td>
+      <td align="center" width="200">
+        <img src="https://img.icons8.com/color/96/000000/delivery.png" width="60"/><br/>
+        <b>Shipping Engine</b><br/>
+        <sub>Free freight over €80</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="200">
+        <img src="https://img.icons8.com/color/96/000000/olive-oil.png" width="60"/><br/>
+        <b>Tasting Notes</b><br/>
+        <sub>Pairing guide for every jar</sub>
+      </td>
+      <td align="center" width="200">
+        <img src="https://img.icons8.com/color/96/000000/serif-font.png" width="60"/><br/>
+        <b>Editorial Design</b><br/>
+        <sub>Bodoni Moda and Plus Jakarta Sans</sub>
+      </td>
+      <td align="center" width="200">
+        <img src="https://img.icons8.com/color/96/000000/positive-dynamic.png" width="60"/><br/>
+        <b>Reduced Motion</b><br/>
+        <sub>Accessible animations by default</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## Product Catalog
+
+| ID | Name | Weight | Price |
+|---|---|---|---|
+| `wild-thyme-reserve` | Wild Thyme Reserve | 250 g | €28.00 |
+| `white-thistle-blossom` | White Thistle & Blossom | 450 g | €34.00 |
+| `wild-pine-herbs` | Wild Pine & Mountain Herbs | 450 g | €38.00 |
+| `oak-chestnut` | Cretan Oak & Wild Chestnut | 450 g | €42.00 |
+| `raw-honeycomb` | Raw Honeycomb Reserve | 500 g | €42.00 |
+| `tasting-trio` | Tasting Discovery Trio Box | 3 × 450 g | €95.00 |
+
+The catalog lives in a single `PRODUCTS` dictionary in `app.py`. Adding a varietal is a one-line change.
+
+---
+
+## Tech Stack
+
+<details>
+<summary><b>Click to expand full tech stack</b></summary>
+
+### **Backend**
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flask-3.0-000000?style=for-the-badge&logo=flask&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jinja2-✓-B41717?style=for-the-badge&logo=jinja&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gunicorn-✓-499848?style=for-the-badge&logo=gunicorn&logoColor=white" />
+</p>
+
+### **Frontend**
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Material_Symbols-✓-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+</p>
+
+### **Design**
+<p align="center">
+  <img src="https://img.shields.io/badge/Bodoni_Moda-✓-1c1c19?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Plus_Jakarta_Sans-✓-1c1c19?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white" />
+</p>
+
+### **DevOps**
+<p align="center">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</p>
+</details>
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+| Tool | Version | Badge |
+|------|---------|-------|
+| Python | 3.10+ | ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python) |
+| Flask | 3.0+ | ![Flask](https://img.shields.io/badge/Flask-3.0+-000000?logo=flask) |
+| pip | any | ![pip](https://img.shields.io/badge/pip-✓-3776AB?logo=pypi) |
+
+### Install & Run
+
+1.  **Clone the repository:**
+    ```bash
+    git clone <your-repo-url>
+    cd melisso
