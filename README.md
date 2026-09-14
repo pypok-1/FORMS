@@ -8,10 +8,6 @@
   </span>
 </h1>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Bodoni+Moda&weight=600&size=26&duration=3000&pause=1000&color=895100&center=true&vCenter=true&random=false&width=700&lines=Raw+Single-Origin+Cretan+Honey;Harvested+Above+1%2C200+Meters;Sealed+in+Beeswax%2C+Numbered+by+Hand" alt="Typing SVG" />
-</p>
-
 A small, deliberate web atelier for raw, single-origin Cretan honey — harvested in the White Mountains above the Aegean, unheated, unfiltered, and hand-sealed in beeswax. Browse the seasonal reserve, explore tasting notes and food pairings, and build a cart that remembers you across sessions. This is MELISSO.
 
 ---
